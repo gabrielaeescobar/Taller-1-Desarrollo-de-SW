@@ -1,19 +1,180 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <title> Taller 1 </title>
-    </head>   
+<head>
+    <meta charset="UTF-8"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Taller 1</title>
+    <style>
+        .row {
+            display: flex;
+            align-items: center; 
+        }
+        .text-justify {
+            text-align: justify;
+        }
+        .custom-divider {
+            background-color:rgb(216, 122, 122);
+            border-radius: 10px;
+        }
+    </style>
+</head>   
 
-    <body class="bg-success-subtle">
-        <h1>Encabezado nivel 1</h1>
-        <p class = "centrado">Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar
-        het merendeel heeft te lijden gehad van wijzigingen in een of andere vorm, 
-        door ingevoegde humor of willekeurig gekozen woorden die nog niet half 
-        geloofwaardig ogen.
-        </p>
-        
-    </body>
+<body class="bg-warning-subtle">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Ayrton Senna</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#rivalidad">Rivalidad Senna-Prost</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gp">Gran Premios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#legado">Legado</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="display-1">
+        Ayrton Senna
+        <small class="text-body-secondary">ícono de la Fórmula 1 </small>          
+    </h1>
+    <div class="row">
+        <div class="col">
+            <p class="text-break text-justify">Ayrton Senna fue un piloto de automovilismo brasilero. Compitió en Fórmula 1 para los equipos Toleman, Lotus, McLaren y Williams, entre 1984 y 1994, fue campeón mundial en 1988, 1990 y 1991, subcampeón en 1989 y 1993, tercero en 1987 y cuarto en 1985, 1986 y 1992, acumulando en total 41 victorias (6 de ellas en el Gran Premio de Mónaco, récord para el evento), 80 podios y 65 pole positions en tan solo 162 clasificaciones, con una efectividad de más del 40 %, figura entre los más exitosos y dominantes pilotos de la era moderna, y, para muchos expertos, es el más rápido de la historia.
+            </p>
+            <p class="text-break text-justify">
+                Ayrton fue aclamado por sus extraordinarios desempeños con pista mojada, como el Gran Premio de Mónaco de 1984, Gran Premio de Portugal de 1985 y Gran Premio de Europa de 1993, teniendo los demás pilotos coches superiores. Era reconocido principalmente por su conducción veloz, técnica superlativa y a veces agresiva en carreras.
+            </p>
+            <p class="text-break text-justify">Ayrton Senna falleció debido a un fuerte choque sufrido en la curva de Tamburello durante la carrera en el Autódromo Enzo e Dino Ferrari durante el Gran Premio de San Marino de 1994. Una varilla de la suspensión del vehículo atravesó la visera de su casco provocándole una fatal herida en la cabeza. </p>
+        </div>
+        <div class="col text-center">
+            <img src="https://media.gettyimages.com/id/99173833/es/foto/ayrton-senna-driver-the-honda-marlboro-mclaren-mp4-5b-during-pre-season-testing-in-february-1990.jpg?s=612x612&w=0&k=20&c=xTwzQQ_XRHaydUMiqrVTMkWcPYM8hdmNoafqAWu8mh0=" class="img-fluid rounded" alt="Ayrton standing">
+        </div>
+    </div>
+    
+    
+    <h2 id="rivalidad" class="display-4">Rivalidad Senna-Prost</h2>
+    <div class="row">
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/953177/es/foto/mclaren-honda-driver-alain-prost-of-france-celebrates-his-victory-with-team-mate-ayrton-senna-of.jpg?s=612x612&w=0&k=20&c=z5oVC94nTj0TWukk7GMSNHXq-QBPkHG3hXCO8CmJOyg=" class="img-fluid rounded" alt="Ayrton and Alain 1988 Australian GP">
+        </div>
+        <div class="col">
+            <p class = "text-break text-justify"> Mantuvo una intensa rivalidad con el piloto francés <a href="https://es.wikipedia.org/wiki/Alain_Prost">Alain Prost</a> durante gran parte de su carrera, incluidos dos años como compañeros de equipo en McLaren. Para muchos, la rivalidad Senna-Prost fue la más intensa en toda la historia de la categoría. Años después de la muerte de Senna, el propio Prost reconoció que sin el brasileño nada hubiera sido igual, se retroalimentaban entre los dos gracias a su rivalidad.
+            </p>
+        </div>
+    
+    <h2 id="gp" class="text-left display-4">Gran Premios</h2>
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>1985 GP de Portugal</li>
+                        <li>1985 GP de Belgica</li>
+                        <li>1986 GP de España</li>
+                        <li>1986 GP de Detroit</li>
+                        <li>1987 GP de Mónaco</li>
+                        <li>1987 GP de Detroit</li>
+                        <li>1988 GP de San Marino</li>
+                        <li>1988 GP de Canada</li>
+                        <li>1988 GP de Detroit</li>
+                        <li>1988 GP de Gran Bretaña</li>
+                        <li>1988 GP de Alemania</li>
+                        <li>1988 GP de Hungaria</li>
+                        <li>1988 GP de Belgica</li>
+                        <li>1988 GP de Japón</li>
+                        <li>1988 GP de San Marino</li>
+                        <li>1989 GP de Monaco</li>
+                        <li>1989 GP de México</li>
+                        <li>1989 GP de Alemania</li>
+                        <li>1989 GP de Belgica</li>
+                        <li>1989 GP de España</li>
+                        <li>1990 GP de Estados Unidos</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>1990 GP de Monaco</li>
+                        <li>1990 GP de Canada</li>
+                        <li>1990 GP de Alemania</li>
+                        <li>1990 GP de Belgica</li>
+                        <li>1990 GP de Italia</li>
+                        <li>1991 GP de Estados Unidos</li>
+                        <li>1991 GP de Brasil</li>
+                        <li>1991 GP de San Marino</li>
+                        <li>1991 GP de Monaco</li>
+                        <li>1991 GP de Hungaria</li>
+                        <li>1991 GP de Belgica</li>
+                        <li>1991 GP de Australia</li>
+                        <li>1992 GP de Monaco</li>
+                        <li>1992 GP de Hungaria</li>
+                        <li>1992 GP de Italia</li>
+                        <li>1993 GP de Brasil</li>
+                        <li>1993 GP de Europa</li>
+                        <li>1993 GP de Monaco</li>
+                        <li>1993 GP de Japon</li>
+                        <li>1993 GP de Australia</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+        <img src="https://media.gettyimages.com/id/768248271/es/foto/ayrton-senna-of-brazil-and-driver-of-the-marlboro-mclarenmclaren-mp4-8ford-hbe7-v8-stands-on.jpg?s=612x612&w=0&k=20&c=FYILpVmp41Q_oAJm-e_8MRgmweRmcjsa0u8T8piun8M=" class="img-fluid rounded" alt="Ayrton 1993 Japanese GP">
+        </div>
+    </div>
+    <h2 id="legado" class="display-4">Legado</h2>
+    <div class="row">
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/501383115/es/foto/ayrton-senna-of-brazil-driver-of-the-honda-marlboro-mclaren-mclaren-mp4-6-honda-ra121e-v10.jpg?s=612x612&w=0&k=20&c=aHtH3hpAzEdODfKB5K8sMl0PlJBoKwyS4nwsFu42w64=" class="img-fluid rounded" alt="Ayrton in car">
+        </div>
+        <div class="col">
+            <h3>Instituto Ayrton Senna</h3>
+            <p class = "text-break text-justify"> El <a href="https://www.sennalegacy.com/category/senna-foundation/">Instituto Ayrton Senna</a>
+                 es una organización sin fines de lucro que investiga y produce conocimiento para mejorar la calidad de la educación, a gran escala. Fundado en 1994, como el sueño de Senna, el Instituto trabaja para desarrollar el potencial de las nuevas generaciones y beneficia a los estudiantes para que tengan éxito en la escuela para poder responder a las necesidades profesionales, económicas , demandas culturales y políticas del siglo XXI. El Instituto prepara cada año a más de 60.000 docentes y directivos, y casi 2 millones de niños y jóvenes se benefician directamente del trabajo de estos docentes, que son capacitados por la organización, en más de 1.300 municipios de diversas regiones de Brasil.</p>
+            <h3>Seguridad en Fórmula 1</h3>
+            <p class = "text-break text-justify"> La muerte de Senna (y de Roland Ratzenberger que sucedió ese mismo fin de semana), revolució la seguridad de la Formula 1. Se tomaron varias medidas para reducir la velocidad de los autos, como reducir la cantidad de carga aerodinámica y agregar chicanes en curvas que de otro modo serían rápidas. Surgió una visión a más largo plazo de la evolución continua de la seguridad que se divide en tres áreas principales: cambio en los equipos del conductor y del carro, cambio en las pistas, y cambios en las instalaciones de cada carrera.
+            </p>
+        </div>
+       
+</div>
+<div class="custom-divider">
+    <h6>
+        Si quiere recibir más información acerca de este ícono de la Fórmula 1, no olvide llenar el siguiente formulario
+    </h6>
+    
+    <form>
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Apellido:</label>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Teléfono:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br>
+        <small>Formato: 3133474524</small><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+<div class="footer">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" width="24" height="24" viewBox="0 0 16 16">
+        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17s3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+    </svg>
+</div>
+    
+</body>
+
 </html>
- 
